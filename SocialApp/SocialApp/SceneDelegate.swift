@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SocialApp
 //
-//  Created by Никита Казанцев on 25.11.2020.
+//  Created by Анас Бен Мустафа on 11/29/20.
 //
 
 import UIKit
