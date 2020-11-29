@@ -8,6 +8,7 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
     @IBOutlet var detailLabel: UILabel!
     var detailItem: Commit?
     
