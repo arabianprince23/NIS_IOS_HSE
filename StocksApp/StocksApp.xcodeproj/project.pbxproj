@@ -3,31 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90C15BB25C69FF9002C84C2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D90C15BA25C69FF9002C84C2 /* Realm */; };
+		D90C15BD25C69FF9002C84C2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D90C15BC25C69FF9002C84C2 /* RealmSwift */; };
+		D913927925C68F79006C1B87 /* ErrorsHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913927825C68F79006C1B87 /* ErrorsHandling.swift */; };
+		D97F308125C6CC180089C094 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = D97F308025C6CC180089C094 /* SwiftUICharts */; };
+		D97F308425C6D17C0089C094 /* NetworkForGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F308325C6D17C0089C094 /* NetworkForGraph.swift */; };
+		D98CB88025C6A3C600E306CD /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CB87F25C6A3C600E306CD /* StockModel.swift */; };
+		D98CB88325C6A40500E306CD /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CB88225C6A40500E306CD /* StorageManager.swift */; };
+		D98CB88625C6A91B00E306CD /* CheckForInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CB88525C6A91B00E306CD /* CheckForInternetConnection.swift */; };
+		D98CB88F25C6B59000E306CD /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CB88E25C6B59000E306CD /* GraphView.swift */; };
+		D9A7C06225C5A09B00CC0B5E /* GetImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C06125C5A09B00CC0B5E /* GetImageExtension.swift */; };
+		D9A7C06525C5A6AD00CC0B5E /* DataChangeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7C06425C5A6AD00CC0B5E /* DataChangeExtension.swift */; };
 		D9B58B71258683BD009F5581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58B70258683BD009F5581 /* AppDelegate.swift */; };
 		D9B58B73258683BD009F5581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58B72258683BD009F5581 /* SceneDelegate.swift */; };
-		D9B58B75258683BD009F5581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58B74258683BD009F5581 /* ViewController.swift */; };
+		D9B58B75258683BD009F5581 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58B74258683BD009F5581 /* MainViewController.swift */; };
 		D9B58B78258683BD009F5581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B58B76258683BD009F5581 /* Main.storyboard */; };
 		D9B58B7A258683BE009F5581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B58B79258683BE009F5581 /* Assets.xcassets */; };
 		D9B58B7D258683BE009F5581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B58B7B258683BE009F5581 /* LaunchScreen.storyboard */; };
 		D9B58B86258691ED009F5581 /* PickerViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58B85258691ED009F5581 /* PickerViewExtensions.swift */; };
 		D9B58B8C258692E0009F5581 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B58B8B258692E0009F5581 /* NetworkServices.swift */; };
+		D9C03C9425C5C3CD0050A639 /* AddStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C03C9325C5C3CD0050A639 /* AddStockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D913927825C68F79006C1B87 /* ErrorsHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorsHandling.swift; sourceTree = "<group>"; };
+		D97F308325C6D17C0089C094 /* NetworkForGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkForGraph.swift; sourceTree = "<group>"; };
+		D98CB87F25C6A3C600E306CD /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		D98CB88225C6A40500E306CD /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		D98CB88525C6A91B00E306CD /* CheckForInternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForInternetConnection.swift; sourceTree = "<group>"; };
+		D98CB88E25C6B59000E306CD /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		D9A7C06125C5A09B00CC0B5E /* GetImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageExtension.swift; sourceTree = "<group>"; };
+		D9A7C06425C5A6AD00CC0B5E /* DataChangeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataChangeExtension.swift; sourceTree = "<group>"; };
 		D9B58B6D258683BD009F5581 /* StocksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StocksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B58B70258683BD009F5581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9B58B72258683BD009F5581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9B58B74258683BD009F5581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9B58B74258683BD009F5581 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D9B58B77258683BD009F5581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9B58B79258683BE009F5581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B58B7C258683BE009F5581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B58B7E258683BE009F5581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9B58B85258691ED009F5581 /* PickerViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewExtensions.swift; sourceTree = "<group>"; };
 		D9B58B8B258692E0009F5581 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		D9C03C9325C5C3CD0050A639 /* AddStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +56,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97F308125C6CC180089C094 /* SwiftUICharts in Frameworks */,
+				D90C15BD25C69FF9002C84C2 /* RealmSwift in Frameworks */,
+				D90C15BB25C69FF9002C84C2 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90C15BF25C6A106002C84C2 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9B58B74258683BD009F5581 /* MainViewController.swift */,
+				D913927B25C68FE3006C1B87 /* Extensions */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		D90C15C025C6A112002C84C2 /* AddStock */ = {
+			isa = PBXGroup;
+			children = (
+				D9C03C9325C5C3CD0050A639 /* AddStockViewController.swift */,
+			);
+			path = AddStock;
+			sourceTree = "<group>";
+		};
+		D913927B25C68FE3006C1B87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9A7C06425C5A6AD00CC0B5E /* DataChangeExtension.swift */,
+				D9B58B85258691ED009F5581 /* PickerViewExtensions.swift */,
+				D913927825C68F79006C1B87 /* ErrorsHandling.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D97F308925C6D1AB0089C094 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D98CB87F25C6A3C600E306CD /* StockModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D97F308C25C6D1DA0089C094 /* Storage managment */ = {
+			isa = PBXGroup;
+			children = (
+				D98CB88225C6A40500E306CD /* StorageManager.swift */,
+			);
+			path = "Storage managment";
+			sourceTree = "<group>";
+		};
+		D97F308F25C6D21D0089C094 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D9B58B8E258692E9009F5581 /* StockNetwork */,
+				D97F309225C6D8440089C094 /* GraphNetwork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D97F309225C6D8440089C094 /* GraphNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D97F308325C6D17C0089C094 /* NetworkForGraph.swift */,
+			);
+			path = GraphNetwork;
+			sourceTree = "<group>";
+		};
+		D98CB88825C6A92F00E306CD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D98CB88525C6A91B00E306CD /* CheckForInternetConnection.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D98CB89125C6B59F00E306CD /* GraphView_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D98CB88E25C6B59000E306CD /* GraphView.swift */,
+			);
+			path = GraphView_SwiftUI;
+			sourceTree = "<group>";
+		};
 		D9B58B64258683BD009F5581 = {
 			isa = PBXGroup;
 			children = (
@@ -62,31 +162,36 @@
 			children = (
 				D9B58B70258683BD009F5581 /* AppDelegate.swift */,
 				D9B58B72258683BD009F5581 /* SceneDelegate.swift */,
-				D9B58B892586929C009F5581 /* VIewController */,
-				D9B58B8E258692E9009F5581 /* Network */,
-				D9B58B79258683BE009F5581 /* Assets.xcassets */,
+				D9B58B892586929C009F5581 /* Views */,
+				D97F308F25C6D21D0089C094 /* Network */,
+				D98CB88825C6A92F00E306CD /* Utilities */,
+				D97F308925C6D1AB0089C094 /* Models */,
+				D97F308C25C6D1DA0089C094 /* Storage managment */,
 				D9B58B76258683BD009F5581 /* Main.storyboard */,
+				D9B58B79258683BE009F5581 /* Assets.xcassets */,
 				D9B58B7B258683BE009F5581 /* LaunchScreen.storyboard */,
 				D9B58B7E258683BE009F5581 /* Info.plist */,
 			);
 			path = StocksApp;
 			sourceTree = "<group>";
 		};
-		D9B58B892586929C009F5581 /* VIewController */ = {
+		D9B58B892586929C009F5581 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D9B58B74258683BD009F5581 /* ViewController.swift */,
-				D9B58B85258691ED009F5581 /* PickerViewExtensions.swift */,
+				D90C15BF25C6A106002C84C2 /* MainViewController */,
+				D90C15C025C6A112002C84C2 /* AddStock */,
+				D98CB89125C6B59F00E306CD /* GraphView_SwiftUI */,
 			);
-			path = VIewController;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		D9B58B8E258692E9009F5581 /* Network */ = {
+		D9B58B8E258692E9009F5581 /* StockNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				D9B58B8B258692E0009F5581 /* NetworkServices.swift */,
+				D9A7C06125C5A09B00CC0B5E /* GetImageExtension.swift */,
 			);
-			path = Network;
+			path = StockNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +210,11 @@
 			dependencies = (
 			);
 			name = StocksApp;
+			packageProductDependencies = (
+				D90C15BA25C69FF9002C84C2 /* Realm */,
+				D90C15BC25C69FF9002C84C2 /* RealmSwift */,
+				D97F308025C6CC180089C094 /* SwiftUICharts */,
+			);
 			productName = StocksApp;
 			productReference = D9B58B6D258683BD009F5581 /* StocksApp.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +242,10 @@
 				Base,
 			);
 			mainGroup = D9B58B64258683BD009F5581;
+			packageReferences = (
+				D90C15B925C69FF9002C84C2 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				D97F307F25C6CC180089C094 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = D9B58B6E258683BD009F5581 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,7 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B58B8C258692E0009F5581 /* NetworkServices.swift in Sources */,
-				D9B58B75258683BD009F5581 /* ViewController.swift in Sources */,
+				D913927925C68F79006C1B87 /* ErrorsHandling.swift in Sources */,
+				D98CB88325C6A40500E306CD /* StorageManager.swift in Sources */,
+				D9B58B75258683BD009F5581 /* MainViewController.swift in Sources */,
+				D9A7C06225C5A09B00CC0B5E /* GetImageExtension.swift in Sources */,
+				D9C03C9425C5C3CD0050A639 /* AddStockViewController.swift in Sources */,
+				D98CB88F25C6B59000E306CD /* GraphView.swift in Sources */,
+				D98CB88625C6A91B00E306CD /* CheckForInternetConnection.swift in Sources */,
+				D9A7C06525C5A6AD00CC0B5E /* DataChangeExtension.swift in Sources */,
+				D97F308425C6D17C0089C094 /* NetworkForGraph.swift in Sources */,
+				D98CB88025C6A3C600E306CD /* StockModel.swift in Sources */,
 				D9B58B71258683BD009F5581 /* AppDelegate.swift in Sources */,
 				D9B58B86258691ED009F5581 /* PickerViewExtensions.swift in Sources */,
 				D9B58B73258683BD009F5581 /* SceneDelegate.swift in Sources */,
@@ -317,10 +440,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AnasBM.StocksApp;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasBenM.StocksApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,10 +459,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AnasBM.StocksApp;
+				PRODUCT_BUNDLE_IDENTIFIER = AnasBenM.StocksApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -365,6 +488,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D90C15B925C69FF9002C84C2 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.5.1;
+			};
+		};
+		D97F307F25C6CC180089C094 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D90C15BA25C69FF9002C84C2 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90C15B925C69FF9002C84C2 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		D90C15BC25C69FF9002C84C2 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90C15B925C69FF9002C84C2 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		D97F308025C6CC180089C094 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D97F307F25C6CC180089C094 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9B58B65258683BD009F5581 /* Project object */;
 }

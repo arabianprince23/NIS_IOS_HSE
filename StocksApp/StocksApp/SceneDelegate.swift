@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  StocksApp
 //
-//  Created by Анас Бен Мустафа on 12/13/20.
+//  Created by Анас Бен Мустафа on 1/30/21.
 //
 
 import UIKit
